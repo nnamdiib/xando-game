@@ -146,7 +146,7 @@ def make_move(board, x, y, player):
         last_move = first_move
 
 def get_blank_board():
-    # creating the board structure. a list that contains three lists. 
+    # creating the board structure: a list that contains three lists. 
     # [ [1] , [2], [3] ]
     board = []
     for y in range(0, BOARDHEIGHT, BOXSIZE):
